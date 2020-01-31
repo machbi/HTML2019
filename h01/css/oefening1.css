@@ -1,0 +1,32 @@
+div.wrapper{
+    width: 25%;
+    margin: auto;
+    background-color: deeppink;
+}
+
+body{
+    background-color: yellow;
+    width: 960px;
+    height: 1000 px;
+}
+
+header{
+    background-color: red;
+    width: 960px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+section{
+    background-color: green;
+    width: 960px;
+    height: 600px;
+    margin-bottom: 30px;
+}
+footer{
+    background-color: black;
+    width: 960px;
+    margin-bottom: 30px;
+    height: 60px;
+    color: yellow;
+}
