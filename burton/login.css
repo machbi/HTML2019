@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+div#wrapper, footer {
+
+    margin: auto;
+    width: 600px;
+    background-color: rgb(255,234,234);
+    padding: 20px;
+
+
+}
+body{
+font-family: 'Ubuntu', sans-serif;
+
+}
+header{
+    padding-left: 10px;
+}
+div.form-group{
+    padding:10px;
+    width: 400px;
+}
+input{
+    float:right;
+    width: 250px;
+}
+input#hutspot, input#kapsalon, input#pizza{
+    width: 200px;
+}
+input#birthday{
+    margin-left: 150px;
+    width: 150px;
+}
+div.geslacht{
+    padding: 10px;
+    width: 317px;
+}
+input#male{
+    width: 40px;
+}
+form label[for="male"],
+form label[for="male"] + input,
+form label[for="female"],
+form label[for="female"] + input{
+    clear: none;
+    width: auto;
+}
+
+section{
+    display: inline-block;
+}
+section.NAW{
+ width: 50%;
+}
+section.eten{
+    width: 30%;
+    vertical-align: top;
+}
+div.oogkleur{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+select#oogkleur{
+    margin-left: 150px;
+}
+div.birthday{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+div.tekstvak{
+    padding-left: 10px;
+}
+textarea#textarea{
+    margin-left: 140px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+input.knoppen{
+}

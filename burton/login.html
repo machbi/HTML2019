@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<!--Waarom pakt ie mijn labels niet?-->
+
+
+
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <link rel="stylesheet" href="login.css">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Burton Eductation</title>
+
+</head>
+<body>
+<header>
+    <h3> Inschrijfformulier Burton Education</h3>
+</header>
+
+<form action="https://www.savatarian.com/html5/form.php" method="post">
+
+<section class="NAW">
+<div class="form-group">
+    <label for="voornaam">Voornaam</label>
+    <input type="text" name="voornaam">
+</div>
+<div class="form-group">
+    <label for="tussenvoegsel">Tussenvoegsel</label>
+    <input type="text" name="tussenvoegsel">
+</div>
+<div class="form-group">
+    <input type="text" name="achternaam">
+    <label for="achternaam">Achternaam</label>
+
+</div>
+<div class="geslacht">
+    <label for="geslacht">Geslacht</label>
+
+    <input type="radio" id="male" name="geslacht" value="man">
+    <label for="male">Man</label>
+    <input type="radio" id="female" name="geslacht" value="female">
+    <label for="female">Vrouw</label>
+</div>
+    <div class="oogkleur">
+<label for="oogkleur">Kleur ogen</label>
+<select id="oogkleur">
+    <option value="groen">Groen</option>
+    <option value="blauw">Blauw</option>
+    <option value="bruin">Bruin</option>
+</select>
+</div>
+<div class="birthday">
+<label for="birthday">Birthday</label>
+<input type="date" id="birthday" name="birthday">
+</div>
+<div class="tekstvak">
+<label for="textarea">Omschrijving</label><br>
+<textarea id="textarea" rows="5" cols="35">Radio buttons aanpassen, knoppen  splitsen, input verjaardag aanpssen,
+bij meerdere checkboksen pakt ie alleen de laatste van het rijtje</textarea>
+</div>
+
+
+
+</section>
+<section class="eten">
+    <input type="checkbox" id="hutspot" name="eten" value="hutspot">
+    <label for="eten">Hutspot</label><br>
+    <input type="checkbox" id="kapsalon" name="eten" value="kapsalon">
+    <label for="eten">Kapsalon</label><br>
+    <input type="checkbox" id="pizza" name="eten" value="pizza">
+    <label for="eten">Pizza</label>
+</section>
+    <br>
+    <section class="knoppen">
+        <div id="submitknop">
+        <input type="submit" name="knop">
+        </div>
+        <div id="resetknop">
+        <input type="reset"  name="resetknop">
+        </div>
+    </section>
+</form>
+</body>
+
+
+
+</html>
